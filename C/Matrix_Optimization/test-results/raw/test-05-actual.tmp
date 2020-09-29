@@ -1,0 +1,7 @@
+==== Matrix Diagonal Sum Benchmark Version 1 ====
+  SIZE       BASE       OPTM  SPDUP POINTS 
+   512 7.8769e-02 5.2322e-02   1.51      1 
+  1024 3.8699e-01 2.1474e-01   1.80      1 
+  1101 4.5296e-01 2.4160e-01   1.87      1 
+RAW POINTS: 3
+TOTAL POINTS: 3 / 35

@@ -1,0 +1,15 @@
+==9363== Memcheck, a memory error detector
+==9363== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==9363== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==9363== Command: ./search_benchmark 1 8 4 tlb
+==9363== Parent PID: 9362
+==9363== 
+==9363== 
+==9363== HEAP SUMMARY:
+==9363==     in use at exit: 0 bytes in 0 blocks
+==9363==   total heap usage: 1,060 allocs, 1,060 frees, 34,936 bytes allocated
+==9363== 
+==9363== All heap blocks were freed -- no leaks are possible
+==9363== 
+==9363== For counts of detected and suppressed errors, rerun with: -v
+==9363== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

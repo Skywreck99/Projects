@@ -1,0 +1,113 @@
+
+
+
+
+Method                  ArrayList Runtime         LinkedList Runtime      
+boolean add(T element)        O(n)                     O(n) 
+
+Explanation: The ArrayList and LinkedList are both O(n). This is due to the fact that they 
+both only have one loop. Either a for loop or while loop.
+
+-------------------------------------------------------------------------------------------------------
+Method                              ArrayList Runtime         LinkedList Runtime      
+boolean add(int index, T element)        O(n)                         O(n) 
+
+Explanation: The ArrayList and LinkedList are both O(n). This is due to the fact that they 
+both only have one loop. Either a for loop or while loop.
+
+-------------------------------------------------------------------------------------------------------
+Method                   ArrayList Runtime         LinkedList Runtime      
+void clear()                    O(n)                      O(1) 
+
+Explanation: The ArrayList is O(n) due to it having a for loop. While the LinkedList is O(1)
+because all it has to do is set the head to null.
+
+-------------------------------------------------------------------------------------------------------
+Method                         ArrayList Runtime         LinkedList Runtime      
+boolean contains(T element)          O(n)                     O(n) 
+
+
+Explanation: The ArrayList and LinkedList are both O(n). This is due to the fact that they 
+both only have one loop. Either a for loop or while loop.
+
+
+-------------------------------------------------------------------------------------------------------
+Method                  ArrayList Runtime         LinkedList Runtime      
+T get(int index)               O(n)                     O(n) 
+
+Explanation: The ArrayList and LinkedList are both O(n). This is due to the fact that they 
+both only have one loop. Either a for loop or while loop.
+
+
+
+-------------------------------------------------------------------------------------------------------
+Method                  ArrayList Runtime         LinkedList Runtime      
+int indexOf(T element)       O(n)                     O(n) 
+
+Explanation: The ArrayList and LinkedList are both O(n). This is due to the fact that they 
+both only have one loop. Either a for loop or while loop.
+
+
+
+-------------------------------------------------------------------------------------------------------
+Method                  ArrayList Runtime         LinkedList Runtime      
+boolean isEmpty()              O(1)                     O(1) 
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------
+Method                       ArrayList Runtime         LinkedList Runtime      
+int lastIndexOf(T element)         O(n)                     O(n) 
+
+
+Explanation: The ArrayList and LinkedList are both O(n). This is due to the fact that they 
+both only have one loop. Either a for loop or while loop.
+
+
+-------------------------------------------------------------------------------------------------------
+Method                      ArrayList Runtime         LinkedList Runtime      
+T set(int index, T element)        O(n)                     O(n) 
+
+
+Explanation: The ArrayList and LinkedList are both O(n). This is due to the fact that they 
+both only have one loop. Either a for loop or while loop.
+
+
+-------------------------------------------------------------------------------------------------------
+Method                  ArrayList Runtime         LinkedList Runtime      
+int size()                     O(n)                     O(n) 
+
+
+Explanation: The ArrayList and LinkedList are both O(n). This is due to the fact that they 
+both only have one loop. Either a for loop or while loop.
+
+
+-------------------------------------------------------------------------------------------------------
+Method                       ArrayList Runtime         LinkedList Runtime      
+void sort(boolean order)            O(n^2)                     O(n^2) 
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------
+Method                        ArrayList Runtime         LinkedList Runtime      
+boolean remove(T element)            O(n)                     O(n) 
+
+
+Explanation: The ArrayList and LinkedList are both O(n). This is due to the fact that they 
+both only have one loop. Either a for loop or while loop.
+
+
+-------------------------------------------------------------------------------------------------------
+Method                  ArrayList Runtime         LinkedList Runtime      
+T remove(int index)             O(1)                     O(n) 
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------
+

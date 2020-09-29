@@ -1,0 +1,6 @@
+I challenge my fate!
+3 4 6 9 13 18 PrimeDirective
+7 147
+352 4 DrEvil
+5 115
+4 5 6 1 2 3

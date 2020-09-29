@@ -1,0 +1,53 @@
+POINTERS
+
+    Reference:
+      a = 19;
+      int *b = a; // Holds the address of a
+
+    Dereference:
+      int c = *b; // C is assigned to an integer where pointer b is assigned to
+
+    Data Types:
+      Characters:
+      char       1 byte
+
+      Integers:
+      short      2 bytes
+      int        4 bytes
+      long       8 bytes
+
+
+      double     8 bytes
+      float      4 bytes
+
+      pointer    8 bytes
+      array
+
+File/IO:
+    fread();   // reads the elements on the file (recommended for reading non-txt files)
+    fwrite();  // writes the elements on the file (recommended for writing non-txt files)
+    fscanf();  // Scans the elements on the file (returns EOF when the file reaches its EOF)
+    fprintf(); // Prints texts from either the file or on the terminal (use stderr to print on the terminal)
+    fopen();   // Opens the file (returns NULL or !NULL)
+    fclose();  // Closes the file
+
+STDIO:
+    printf(); // prints out anything on the screen
+    scanf();  // scans the input of the user
+
+C-FUNCTIONS:
+    atio(const char *);  // converts a string to an integer
+
+FORMAT SPECIFIERS
+    %c - Character, could convert a number to a character
+    %s - String
+    %x - Hexadecimal Number
+    %o - Octal Number
+    %d - Decimal Integer
+    %f - Float (scanf)
+    %lf - Double (scanf)
+
+
+VARIABLES:
+    Pointers
+    

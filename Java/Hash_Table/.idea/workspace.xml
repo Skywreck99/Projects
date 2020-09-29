@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="49ce742e-ddb1-4a5a-a554-99c24bde1bd1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Project5" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Ui5Kejga29NpoCmP3zQbbCn5As" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.TextScan">
+    <configuration name="HashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashMap" />
+      <module name="Project5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextScan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TextScan" />
+      <module name="Project5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TextScan" />
+        <item itemvalue="Application.HashMap" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49ce742e-ddb1-4a5a-a554-99c24bde1bd1" name="Default Changelist" comment="" />
+      <created>1575826512903</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575826512903</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="780" height="987" key="GridCell.Tab.0.bottom" timestamp="1578940200548">
+      <screen x="0" y="0" width="1563" height="1042" />
+    </state>
+    <state width="780" height="987" key="GridCell.Tab.0.bottom/0.0.1563.1042@0.0.1563.1042" timestamp="1578940200548" />
+    <state width="780" height="987" key="GridCell.Tab.0.center" timestamp="1578940200547">
+      <screen x="0" y="0" width="1563" height="1042" />
+    </state>
+    <state width="780" height="987" key="GridCell.Tab.0.center/0.0.1563.1042@0.0.1563.1042" timestamp="1578940200547" />
+    <state width="780" height="987" key="GridCell.Tab.0.left" timestamp="1578940200547">
+      <screen x="0" y="0" width="1563" height="1042" />
+    </state>
+    <state width="780" height="987" key="GridCell.Tab.0.left/0.0.1563.1042@0.0.1563.1042" timestamp="1578940200547" />
+    <state width="780" height="987" key="GridCell.Tab.0.right" timestamp="1578940200547">
+      <screen x="0" y="0" width="1563" height="1042" />
+    </state>
+    <state width="780" height="987" key="GridCell.Tab.0.right/0.0.1563.1042@0.0.1563.1042" timestamp="1578940200547" />
+    <state x="478" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1578935204015">
+      <screen x="0" y="0" width="1563" height="1042" />
+    </state>
+    <state x="478" y="344" key="com.intellij.ide.util.TipDialog/0.0.1563.1042@0.0.1563.1042" timestamp="1578935204015" />
+    <state x="444" y="226" width="672" height="678" key="search.everywhere.popup" timestamp="1575851972621">
+      <screen x="0" y="0" width="1563" height="1042" />
+    </state>
+    <state x="444" y="226" width="672" height="678" key="search.everywhere.popup/0.0.1563.1042@0.0.1563.1042" timestamp="1575851972621" />
+  </component>
+</project>

@@ -1,0 +1,15 @@
+==38373== Memcheck, a memory error detector
+==38373== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==38373== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==38373== Command: ./treemap_main -echo
+==38373== Parent PID: 38372
+==38373== 
+==38373== 
+==38373== HEAP SUMMARY:
+==38373==     in use at exit: 0 bytes in 0 blocks
+==38373==   total heap usage: 405 allocs, 405 frees, 126,400 bytes allocated
+==38373== 
+==38373== All heap blocks were freed -- no leaks are possible
+==38373== 
+==38373== For lists of detected and suppressed errors, rerun with: -s
+==38373== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
