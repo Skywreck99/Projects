@@ -1,6 +1,0 @@
-Reading ints using function 'read_int_deltas()'
-Returned pointer was NOT null
-Read 1 ints:
-[ 0] : 42
-free()'ing memory for deltas
-Done
