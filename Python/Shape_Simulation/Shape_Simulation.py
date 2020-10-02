@@ -128,8 +128,7 @@ class Display:
             self.add(shape)
             shape.draw(self.turtle)'''
             
-   
-        
+Display()
             
     
         
