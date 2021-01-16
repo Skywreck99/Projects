@@ -1,0 +1,7 @@
+Guten Tag!
+
+This is a test using Simple Mail Client in Python
+
+
+Respectfully,
+Crypto
