@@ -1,0 +1,248 @@
+{
+	"customers": [
+	{
+		"user_id": "rmurphy123",
+		"first_name": "Ryan",
+		"last_name": "Murphy",
+		"age": 45,
+		"children": ["Jack", "Jill"],
+		"spouse": "Jenny",
+		"address": {
+			"street": "875 Waterview Lane",
+			"city": "Santa Fe",
+			"state": "NM",
+			"zip_code": "87501"
+		},
+		"phone_numbers": [
+			{
+				"type": "mobile",
+				"number": "505-570-5437"
+			},
+			{
+				"type": "work",
+				"number": "505-469-9621"
+			}		
+		],
+		"loans": [
+			{
+				"loan_id": 1024,
+				"type": "Mortg",
+				"amount": 100000,
+				"rate": 0.07,
+				"term": 30,
+				"mth_pmt": 661.44
+			},
+			{
+				"loan_id": 1025,
+				"type": "Car",
+				"amount": 25000,
+				"rate": 0.065,
+				"term": 3,
+				"mth_pmt": 762.10
+			}
+		]
+	},
+	{
+		"user_id": "eharper321",
+		"first_name": "Ellen",
+		"last_name": "Harper",
+		"age": 57,
+		"children": ["Phill", "Joe", "Tracy"],
+		"spouse": "John",
+		"address": {
+			"street": "2993 Chapmans Lane",
+			"city": "Albuquerque",
+			"state": "NM",
+			"zip_code": "87109"
+		},
+		"phone_numbers": [
+			{
+				"type": "mobile",
+				"number": "505-835-3737"
+			},
+			{
+				"type": "work",
+				"number": "505-858-7938"
+			}		
+		],
+		"loans": [
+			{
+				"loan_id": 1027,
+				"type": "Mortg",
+				"amount": 200000,
+				"rate": 0.0625,
+				"term": 15,
+				"mth_pmt": 1705.96
+			},
+			{
+				"loan_id": 1028,
+				"type": "Other",
+				"amount": 15000,
+				"rate": 0.065,
+				"term": 3,
+				"mth_pmt": 457.26
+			},
+			{
+				"loan_id": 1029,
+				"type": "Car",
+				"amount": 15000,
+				"rate": 0.0775,
+				"term": 4,
+				"mth_pmt": 603.50
+			}
+		]
+	},
+	{
+		"user_id": "bwilliams99",
+		"first_name": "Bob",
+		"last_name": "Williams",
+		"age": 33,
+		"children": [],
+		"spouse": "",
+		"address": {
+			"street": "4378 Byrd Lane",
+			"city": "Albuquerque",
+			"state": "NM",
+			"zip_code": "87111"
+		},
+		"phone_numbers": [
+			{
+				"type": "mobile",
+				"number": "505-688-5888"
+			},
+			{
+				"type": "work",
+				"number": "505-280-2531"
+			}		
+		],
+		"loans": [
+			{
+				"loan_id": 1030,
+				"type": "Mortg",
+				"amount": 475000,
+				"rate": 0.0575,
+				"term": 15,
+				"mth_pmt": 3925.64
+			}
+		]
+	},
+	{
+		"user_id": "cholden456",
+		"first_name": "Craig",
+		"last_name": "Holden",
+		"age": 39,
+		"children": [],
+		"spouse": "",
+		"address": {
+			"street": "1963 Westfall Avenue",
+			"city": "Santa Fe",
+			"state": "NM",
+			"zip_code": "87501"
+		},
+		"phone_numbers": [
+			{
+				"type": "mobile",
+				"number": "505-573-4241"
+			},
+			{
+				"type": "work",
+				"number": "505-946-1392"
+			}		
+		],
+		"loans": [
+			{
+				"loan_id": 1034,
+				"type": "Mortg",
+				"amount": 350000,
+				"rate": 0.08,
+				"term": 30,
+				"mth_pmt": 2551.17
+			}
+		]
+	},
+	{
+		"user_id": "mentermann2",
+		"first_name": "Max",
+		"last_name": "Entermann",
+		"age": 61,
+		"children": ["Jody", "Luke", "Sidney"],
+		"spouse": "Mary",
+		"address": {
+			"street": "4943 Waterview Lane",
+			"city": "Santa Fe",
+			"state": "NM",
+			"zip_code": "87501"
+		},
+		"phone_numbers": [
+			{
+				"type": "mobile",
+				"number": "505-316-6317"
+			},
+			{
+				"type": "work",
+				"number": "505-438-4081"
+			}		
+		],
+		"loans": [
+			{
+				"loan_id": 1031,
+				"type": "Mortg",
+				"amount": 475000,
+				"rate": 0.0575,
+				"term": 15,
+				"mth_pmt": 3925.64
+			},
+			{
+				"loan_id": 1032,
+				"type": "Car",
+				"amount": 35000,
+				"rate": 0.0675,
+				"term": 5,
+				"mth_pmt": 685.07
+			},
+			{
+				"loan_id": 1033,
+				"type": "Other",
+				"amount": 12000,
+				"rate": 0.0825,
+				"term": 10,
+				"mth_pmt": 146.18
+			}
+		]
+	},
+	{
+		"user_id": "shunter987",
+		"first_name": "Scott",
+		"last_name": "Hunter",
+		"age": 26,
+		"children": [],
+		"spouse": "",
+		"address": {
+			"street": "3468 Cooks Mine Road",
+			"city": "Taos",
+			"state": "NM",
+			"zip_code": "87571"
+		},
+		"phone_numbers": [
+			{
+				"type": "mobile",
+				"number": "575-308-2296"
+			},
+			{
+				"type": "work",
+				"number": "505-758-3595"
+			}		
+		],
+		"loans": [
+			{
+				"loan_id": 1026,
+				"type": "Car",
+				"amount": 10000,
+				"rate": 0.077,
+				"term": 5,
+				"mth_pmt": 200.05
+			}
+		]
+	}
+  ]
+}

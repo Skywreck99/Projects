@@ -1,0 +1,25 @@
+1022	Eileen Cooper	Santa Fe	200000	0.07	15	Mortg	1787.23
+1023	Jack Smith	Santa Fe	150000	0.075	15	Mortg	1381.88
+1024	Ryan Murphy	Santa Fe	100000	0.07	30	Mortg	661.44
+1025	Ryan Murphy	Santa Fe	25000	0.065	3	Car	762.1
+1026	Scott Hunter	Taos	10000	0.077	5	Car	200.05
+1027	Ellen Harper	Albuquerque	200000	0.0625	15	Mortg	1705.96
+1028	Ellen Harper	Albuquerque	15000	0.065	3	Other	457.26
+1029	Ellen Harper	Albuquerque	25000	0.0775	4	Car	603.5
+1030	Bob Williams	Albuquerque	150000	0.0575	15	Mortg	1239.68
+1031	Max Entermann	Santa Fe	475000	0.0575	15	Mortg	3925.64
+1032	Max Entermann	Santa Fe	35000	0.0675	5	Car	685.07
+1033	Max Entermann	Santa Fe	12000	0.0825	10	Other	146.18
+1034	Craig Holden	Santa Fe	350000	0.08	30	Mortg	2551.17
+1035	Helen Rayus	Albuquerque	10000	0.055	3	Car	300.58
+1036	Helen Rayus	Albuquerque	20000	0.075	5	Other	398.27
+1037	Ted Myerson	Santa Fe	525000	0.065	30	Mortg	3300.48
+1038	Peter Sanger	Albuquerque	10500	0.06875	5	Other	206.11
+1039	Peter Sanger	Albuquerque	275000	0.06	15	Mortg	2309.06
+1040	Rose Budnick	Taos	250000	0.0575	30	Mortg	1451.97
+1041	Rose Budnick	Taos	5000	0.0875	3	Other	157.27
+1042	Robert Thompson	Taos	41000	0.075	4	Car	985.18
+1043	Austin Powers	Albuquerque	56000	0.0725	5	Car	1108.79
+1044	Barbara Ringer	Taos	35000	0.06	5	Other	673.28
+1045	Barbara Ringer	Taos	129000	0.0575	15	Mortg	1066.12
+1046	Joseph Rogers	Taos	350000	0.065	15	Mortg	3032.45

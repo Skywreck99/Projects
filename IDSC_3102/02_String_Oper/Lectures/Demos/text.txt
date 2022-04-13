@@ -1,0 +1,5 @@
+Text File
+John Smith became our customer 10 years ago
+Extract John out of this sentence.
+We have John I and John II as our customers.
+around and around we go
