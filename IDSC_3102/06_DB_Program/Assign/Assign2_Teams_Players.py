@@ -21,10 +21,11 @@
 # combinations of input selection must produce correct results as well.
 # *****************************************************************************
 
+from lib2to3.pgen2.token import LEFTSHIFT
 import tkinter
 import tkinter.messagebox
 import sqlite3
-from tkinter import ttk
+from tkinter import CENTER, RIGHT, ttk
 
 class BaseballDB:
   # ********************************************************************
@@ -37,7 +38,7 @@ class BaseballDB:
     self.main_window.title('Player Stats')
     # Adjust size and prevent resizing
     self.main_window.geometry('450x300')
-    self.main_window.resizable(False, False)
+    #self.main_window.resizable(False, False)
 
     # Radiobuttons widgets for the American and National leagues
     self.radio_buttons()
@@ -137,8 +138,8 @@ class BaseballDB:
                                       height=10)
     
     # Define headings (see PDF for the text and alignment)
-    self.table_players.heading('player', text='Player Name')
-    self.table_players.heading('bat_avg', text='Batting Avg')
+    self.table_players.heading('player', text='Player Name', anchor='w')
+    self.table_players.heading('bat_avg', text='Batting Avg', anchor='e')
 
     # Configure column widths to 150 for player and 75 for bat_avg
     self.table_players.column('player', width=150)

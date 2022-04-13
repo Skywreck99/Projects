@@ -71,7 +71,7 @@ class TempConvert:
   def display_labels(self):
     # Create/display a label for temperature in the main window
     # with the text 'Temperature'
-    self.label_temp = tkinter.Label(self.main_window, text="Temperature")
+    self.label_temp = tkinter.Label(self.main_window, text="Temperature: ")
     
     # Position the label in the top-left corner at (30, 20)
     self.label_temp.place(x=30, y=20)
@@ -195,25 +195,26 @@ class TempConvert:
     # Gather all the inputs to calculate the temperature conversion
     try:
       # Get the user-entered temperature from the input entry box
-      temp_txt = self.label_temp.getdouble('1.0')
+      temp_txt = self.entry_temp.get()
+      if temp_txt:
+        
+          # Convert it to a float
+          temperature = float(temp_txt)
 
-      # Convert it to a float
-      temperature = float(temp_txt)
-
-      # Get the appropriate conversion type
-      convert_type = self.convert_type.get()
-      # If the conversion type is 1, you have Fahrenheit to Celsius conversion
-      if convert_type == 1:
-        # Calculate celsius based on temperature (which is in Fahrenheit)
-        celsius = (5/9)*(temperature - 32)
-        # Display the result in the self.convert_temp label formated to 1 digit
-        self.label_result.config(text = f"Converted Temperature {str(celsius);,.1f}") # (use celsius somewhere)
-      # Otherwise it must be Celsius to Fahrenheit conversion
-      else:
-        # Calculate fahrenheit based on temperature (which is in Celsius)
-        fahrenheit = (9/5)*temperature + 32
-        # Display the result in the self.convert_temp label formated to 1 digit
-        self.label_result.config(text = f"Converted Temperature {str(fahrenheit);,.1f}")
+          # Get the appropriate conversion type
+          convert_type = self.convert_type.get()
+          # If the conversion type is 1, you have Fahrenheit to Celsius conversion
+          if convert_type == 1:
+            # Calculate celsius based on temperature (which is in Fahrenheit)
+            celsius = (5/9)*(temperature - 32)
+            # Display the result in the self.convert_temp label formated to 1 digit
+            self.label_result.config(text = "Converted Temperature " + str(format(celsius, ".1f"))) # (use celsius somewhere)
+          # Otherwise it must be Celsius to Fahrenheit conversion
+          else:
+            # Calculate fahrenheit based on temperature (which is in Celsius)
+            fahrenheit = (9/5)*temperature + 32
+            # Display the result in the self.convert_temp label formated to 1 digit
+            self.label_result.config(text = "Converted Temperature " + str(format(fahrenheit, ".1f")))
 
     except ValueError:
       # Display error message: 'You must enter a valid temperature!'
