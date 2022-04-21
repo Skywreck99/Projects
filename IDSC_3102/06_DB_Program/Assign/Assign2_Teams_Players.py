@@ -38,7 +38,7 @@ class BaseballDB:
     self.main_window.title('Player Stats')
     # Adjust size and prevent resizing
     self.main_window.geometry('450x300')
-    #self.main_window.resizable(False, False)
+    self.main_window.resizable(False, False)
 
     # Radiobuttons widgets for the American and National leagues
     self.radio_buttons()
@@ -54,7 +54,6 @@ class BaseballDB:
     self.get_teams()
 
     # The selected team is the first one at index 0 (Angels)
-    print(self.listbox_teams.curselection())
     team = self.listbox_teams.get(self.listbox_teams.curselection()[0])
 
     # Initial call to get_player_info function to retrieve the player
@@ -135,6 +134,7 @@ class BaseballDB:
     column_ids = ('player', 'bat_avg')
     self.table_players = ttk.Treeview(self.main_window,
                                       column=column_ids,
+                                      show='headings',
                                       height=10)
     
     # Define headings (see PDF for the text and alignment)
@@ -244,5 +244,7 @@ class BaseballDB:
 # Creates an instance of the BaseballDB class.
 if __name__ == '__main__':
   baseball = BaseballDB()
+
+
 
 

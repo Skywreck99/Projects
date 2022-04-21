@@ -46,20 +46,20 @@ class RegionsDivisions:
     self.main_window.resizable(False, False)
 
     # Design Radiobuttons for regions
-    # self.radio_buttons()
+    self.radio_buttons()
 
     # Design Listbox of divisions
-    # self.list_box()
+    self.list_box()
 
     # Setup tkinter Treeview table widget for displaying state info
-    # self.table()
+    self.table()
 
     # Get the region of the currently selected radio button (Midwest)
-    # ***
+    self.region.set('Midwest')
     
     # Bind <<ListboxSelect>> event to proc_sel_div callback function
-    # self.listbox_divisions.bind('<<ListboxSelect>>', lambda e:
-    #                               self.proc_sel_div(e))
+    self.listbox_divisions.bind('<<ListboxSelect>>', lambda e:
+                                 self.proc_sel_div(e))
     
     # Enter the tkinter main loop
     tkinter.mainloop()
@@ -79,10 +79,10 @@ class RegionsDivisions:
     self.frame_regions.place(x=40, y=30)
 
     # Create the StringVar object to use with the radio buttons
-    self.region = ???
+    self.region = ttk.StringVar()
 
     # Set the StringVar object to Midwest region
-    # ***
+    self.region.set('Midwest')
 
     # Design 4 Radiobutton widgets for Northeast, Midwest,
     # South and West regions
@@ -167,14 +167,14 @@ class RegionsDivisions:
   # currently selected region
   def get_divisions(self):
     # Get the currently selected region
-    region = ???
+    region = self.region.get()
 
     # Connect to Cities.db and retrieve distinct divisions for the 
     # currently selected region into a list of 1-element tuples
     db_conn = sqlite3.connect('Cities.db')
     db_cursor = db_conn.cursor()
-    sql_string = 
-    sql_string += 
+    sql_string = 'SELECT DISTINCT Division FROM States '
+    sql_string += 'WHERE Region="' + region + '" '
     db_cursor.execute(sql_string)
     division_recs = db_cursor.fetchall()
     db_conn.close()
@@ -182,7 +182,7 @@ class RegionsDivisions:
     # Loop through division records to verify and convert to a simple
     # list of divisions
     division_list = []
-    for ?? in ???:
+    for rec in division_recs:
       # print(rec)
       division_list.append(rec[0])
 
@@ -217,14 +217,14 @@ class RegionsDivisions:
     # Connect to Cities.db and retrieve state information
     db_conn = sqlite3.connect('Cities.db')
     db_cursor = db_conn.cursor()
-    sql_string = 
-    sql_string += 
-    sql_string += 
-    sql_string += 
-    sql_string += 
-    sql_string += 
-    sql_string += 
-    sql_string += 
+    sql_string = 'SELECT StateName, States.Pop2020 AS StatePop, '
+    sql_string += 'COUNT(*) AS NumCities, SUM(Cities.Pop2020) AS PopUrban, ' 
+    sql_string += 'SUM(Cities.Pop2020)/States.Pop2020 AS PctUrban '
+    sql_string += 'FROM States INNER JOIN Cities '
+    sql_string += 'ON States.StateID = Cities.StateID '
+    sql_string += 'WHERE Division="' + division +'" '
+    sql_string += 'GROUP BY StateName '
+    sql_string += 'ORDER BY PctUrban DESC'
     db_cursor.execute(sql_string)
     state_recs = db_cursor.fetchall()
 
@@ -233,7 +233,7 @@ class RegionsDivisions:
       self.table_states.delete(item)
 
     # Insert records for the new state
-    for ??? in ???:
+    for state_rec in state_recs:
       # Instead of printing we insert into tkinter table !!!
       # print(state_rec)     
       # Format the population figures and percent urban
@@ -242,9 +242,9 @@ class RegionsDivisions:
       pct_urban = f'{state_rec[4]:.2%}'
       
       # Create a formatted tuple for the current record
-      state_rec_fmt = (???)
+      state_rec_fmt = (state_rec[0], state_pop_2020, urban_pop_2020, pct_urban)
       # Insert formatted record into Treeview table
-      # ***
+      self.table_states.insert('', tkinter.END, values=state_rec_fmt)
 
     # Close DB connection
     db_conn.close()
@@ -254,13 +254,13 @@ class RegionsDivisions:
   # ******************************************************************  
   def proc_sel_div(self, e):
     # Find the index of the currently selected division
-    div_idx = 
+    div_idx = self.listbox_divisions.curselection()
     # div_idx is a 1-element tuple, so you need div_idx[0]
     # to get the currently selected division
-    div = 
+    div = self.listbox_divisions_get(div_idx[0])
 
     # Subsequent calls to get_states_info function
-    # ***
+    self.get_states_info(div)
 
 # Create an instance of the RegionsDivisions class.
 if __name__ == '__main__':

@@ -209,12 +209,14 @@ class TempConvert:
             celsius = (5/9)*(temperature - 32)
             # Display the result in the self.convert_temp label formated to 1 digit
             self.label_result.config(text = "Converted Temperature " + str(format(celsius, ".1f"))) # (use celsius somewhere)
+            #self.convert_temp.set(f'{celsius:,.1f}')
           # Otherwise it must be Celsius to Fahrenheit conversion
           else:
             # Calculate fahrenheit based on temperature (which is in Celsius)
             fahrenheit = (9/5)*temperature + 32
             # Display the result in the self.convert_temp label formated to 1 digit
             self.label_result.config(text = "Converted Temperature " + str(format(fahrenheit, ".1f")))
+            #self.convert_temp.set(f'{fahrenheit:,.1f}')
 
     except ValueError:
       # Display error message: 'You must enter a valid temperature!'

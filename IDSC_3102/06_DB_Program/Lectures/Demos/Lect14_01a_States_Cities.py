@@ -121,17 +121,23 @@ class StatesCities:
     self.table_cities.column('pct_chg', anchor='e', width=75)
     # Place the table to the right of the list box
     self.table_cities.place(x=180, y=40)
+    
+    
   # ******************************************************************
   # <<LisboxSelect>> Callback Function
   # ******************************************************************  
   def proc_sel_state(self, e):
     # Find the index of the currently selected state
     st_idx = self.listbox_states.curselection()
+    
     # st_idx is a 1-element tuple, so you need st_idx[0]
     # to get the currently selected state    
     st_name = self.listbox_states.get(st_idx[0])
+    
     # Subsequent calls to get_cities_info function
     self.get_cities_info(st_name)
+    
+    
   # ******************************************************************
   # Retrieving City Information
   # ****************************************************************** 
@@ -145,11 +151,15 @@ class StatesCities:
     sql_string += 'WHERE StateName="' + st_name + '"'
     db_cursor.execute(sql_string)
     city_recs = db_cursor.fetchall()
+    
     # Clear the table before inserting
+    # Important to display the number of cities with the current state
     for item in self.table_cities.get_children():
       self.table_cities.delete(item)
+    
     # Insert records for the new city
     for city_rec in city_recs:
+      
       # Instead of printing we insert into tkinter table !!!
       # print(city_rec)
       # Calculate the percent change in population
@@ -166,8 +176,10 @@ class StatesCities:
       # Create a formatted tuple for the current record
       city_rec_fmt = (city_rec[0], pop_2020, pop_2010, pct_chg)
       self.table_cities.insert('', tkinter.END, values=city_rec_fmt)
+    
     # Close DB connection
     db_conn.close()
+    
 # Create an instance of the StatesCities class.
 if __name__ == '__main__':
   states_cities = StatesCities()
