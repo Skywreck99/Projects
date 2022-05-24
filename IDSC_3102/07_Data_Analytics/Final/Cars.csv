@@ -1,0 +1,250 @@
+Model,Origin,Price,HP,MPG
+Acura MDX,Japan,46365,300,17
+Acura RDX,Japan,37165,240,18
+Acura RL,Japan,49670,300,18
+Acura TL,Japan,33150,270,23
+Acura TSX,Japan,29035,200,23
+Audi A3,Europe,27390,200,25
+Audi A4,Europe,36455,200,23
+Audi A6,Europe,50820,255,21
+Audi A8,Europe,74640,330,17
+Audi Q7,Europe,57920,350,15
+BMW 3 Series sedan 328i 6-cyl,Europe,39175,230,23
+BMW 3 Series wagon 325xi 6-cyl,Europe,40520,215,22
+BMW 5 Series,Europe,55520,300,22
+BMW 6 Series,Europe,77440,360,19
+BMW 7 Series,Europe,81545,325,18
+BMW X3,Europe,43120,260,19
+BMW X5,Europe,56745,260,17
+BMW Z4,Europe,46070,225,26
+Buick Enclave,United States,39240,275,15
+Buick LaCrosse,United States,31450,200,18
+Buick Lucerne CXL V6,United States,30680,197,19
+Buick Lucerne CXS V8,United States,38935,275,17
+Cadillac CTS,United States,40835,263,19
+Cadillac DTS,United States,48050,275,17
+Cadillac Escalade,United States,64905,403,13
+Cadillac SRX V6,United States,48240,255,16
+Cadillac SRX V8,United States,50190,320,16
+Cadillac STS,United States,50325,302,18
+Cadillac XLR,United States,77295,320,17
+Chevrolet Avalanche,United States,46560,310,13
+Chevrolet Aveo hatchback LS 4-cyl,United States,14435,103,28
+Chevrolet Aveo hatchback LS 4-cyl MT,United States,13585,103,27
+Chevrolet Cobalt,United States,17350,145,23
+Chevrolet Colorado,United States,30300,220,16
+Chevrolet Corvette convertible Base V8 MT,United States,57520,400,21
+Chevrolet Corvette hatchback Z06 V8 MT,United States,73945,505,19
+Chevrolet Equinox,United States,27740,185,18
+Chevrolet HHR,United States,22055,172,23
+Chevrolet Impala,United States,26840,242,20
+Chevrolet Malibu LT 4-cyl,United States,21620,169,23
+Chevrolet Malibu LTZ V6,United States,28045,252,20
+Chevrolet Monte Carlo,United States,30300,303,17
+Chevrolet Suburban,United States,51940,320,14
+Chevrolet Tahoe,United States,42849,320,14
+Chevrolet TrailBlazer,United States,35625,291,15
+Chevrolet Uplander,United States,31044,240,18
+Chrysler 300 Touring V6,United States,30255,250,19
+Chrysler 300 C V8,United States,37480,340,16
+Chrysler Crossfire,United States,34495,215,22
+Chrysler PT Cruiser,United States,23485,180,20
+Chrysler Pacifica,United States,33515,253,16
+Chrysler Sebring sedan Touring 4-cyl,United States,20870,173,23
+Chrysler Sebring sedan Touring V6,United States,25465,189,21
+Chrysler Town & Country,United States,38390,251,17
+Dodge Avenger,United States,27350,235,20
+Dodge Caliber R/T 4-cyl CVT,United States,23860,172,22
+Dodge Caliber SXT 4-cyl CVT,United States,19015,158,24
+Dodge Charger SXT V6,United States,28860,250,19
+Dodge Charger R/T V8,United States,36295,340,17
+Dodge Dakota,United States,29970,230,14
+Dodge Durango,United States,39020,335,12
+Dodge Grand Caravan,United States,33950,197,16
+Dodge Magnum,United States,29275,250,19
+Dodge Nitro,United States,28875,210,16
+Dodge Ram 1500,United States,38370,345,13
+Dodge Ram 2500,United States,50070,350,13
+Dodge Viper,United States,91990,510,15
+Ford Edge,United States,33590,265,16
+Ford Escape,United States,26525,200,19
+Ford Expedition,United States,48730,300,13
+Ford Explorer Sport Trac,United States,30395,210,14
+Ford Explorer XLT V6,United States,35520,210,15
+Ford Explorer Eddie Bauer V8,United States,39025,292,14
+Ford F-150,United States,36705,300,13
+Ford F-250,United States,50735,350,10
+Ford Freestar,United States,33480,201,17
+Ford Fusion SEL V6,United States,26025,221,20
+Ford Mustang convertible Premium V6,United States,28070,210,20
+Ford Mustang coupe GT Premium V8 MT,United States,29020,300,20
+Ford Taurus,United States,28985,263,18
+Ford Taurus X,United States,36105,263,16
+Honda Accord sedan LX-P 4-cyl,Japan,22795,177,23
+Honda Accord sedan EX-L V6,Japan,28695,268,21
+Honda CR-V,Japan,24645,166,21
+Honda Civic sedan EX 4-cyl,Japan,19610,140,28
+Honda Civic sedan Hybrid 4-cyl CVT,Japan,22400,110,37
+Honda Civic sedan EX 4-cyl MT,Japan,18810,140,31
+Honda Civic coupe Si 4-cyl MT,Japan,20540,197,27
+Honda Element,Japan,23705,166,21
+Honda Fit Base 4-cyl,Japan,15245,109,32
+Honda Fit Sport 4-cyl MT,Japan,15765,109,34
+Honda Odyssey,Japan,32410,255,19
+Honda Pilot,Japan,34635,255,17
+Honda Ridgeline,Japan,30590,247,15
+Honda S2000,Japan,33665,240,25
+Hummer H3,United States,36915,220,14
+Hyundai Accent hatchback GS 4-cyl MT,South Korea,12745,110,30
+Hyundai Accent GLS 4-cyl,South Korea,14230,110,28
+Hyundai Azera,South Korea,30075,263,19
+Hyundai Elantra,South Korea,17555,138,27
+Hyundai Santa Fe,South Korea,30745,242,18
+Hyundai Sonata GLS 4-cyl,South Korea,21345,162,23
+Hyundai Sonata GLS V6,South Korea,22995,235,21
+Hyundai Tucson,South Korea,22154,173,18
+Hyundai Veracruz,South Korea,33870,260,17
+Infiniti FX,Japan,39215,280,18
+Infiniti G sedan X V6,Japan,39400,306,18
+Infiniti G sedan Journey V6,Japan,35140,306,19
+Infiniti M M35 X V6,Japan,50240,280,18
+Infiniti M M35 V6,Japan,47650,275,19
+Jaguar S-Type,Europe,52770,294,19
+Jaguar XJ,Europe,71545,294,19
+Jaguar XK,Europe,85635,300,19
+Jeep Commander,United States,42325,330,13
+Jeep Compass,United States,21660,172,22
+Jeep Grand Cherokee,United States,35300,235,14
+Jeep Patriot,United States,26045,172,20
+Jeep Wrangler,United States,30735,205,15
+Kia Amanti,South Korea,30130,264,18
+Kia Optima EX 4-cyl,South Korea,22795,162,23
+Kia Optima EX V6,South Korea,23900,185,21
+Kia Rio hatchback Rio5 SX 4-cyl MT,South Korea,14110,110,30
+Kia Rio sedan LX 4-cyl,South Korea,14905,110,28
+Kia Rondo,South Korea,20655,182,21
+Kia Sedona,South Korea,31365,244,17
+Kia Sorento,South Korea,24035,192,15
+Kia Spectra EX 4-cyl,South Korea,15905,138,25
+Kia Spectra EX 4-cyl MT,South Korea,14930,138,28
+Kia Sportage,South Korea,23565,173,18
+Land Rover LR3,Europe,50150,300,13
+Lexus ES,Japan,41289,272,23
+Lexus GS 300 V6,Japan,51859,245,20
+Lexus GS 450h V6 CVT,Japan,60172,340,23
+Lexus GX,Japan,48563,235,15
+Lexus IS,Japan,33734,204,24
+Lexus LS,Japan,76572,380,21
+Lexus RX 350 V6,Japan,45706,270,19
+Lexus RX 400h V6 CVT,Japan,49883,268,23
+Lexus SC,Japan,67084,288,21
+Lincoln MKX,United States,43595,265,16
+Lincoln MKZ,United States,32675,263,20
+Lincoln Navigator,United States,59015,300,13
+Lincoln Town Car,United States,45025,239,17
+Lotus Elise,Europe,45545,190,29
+Mazda CX-7,Japan,32915,244,18
+Mazda CX-9,Japan,35372,263,16
+Mazda MX-5 Miata,Japan,27095,170,27
+Mazda RX-8,Japan,31100,238,18
+Mazda Mazda3 sedan i 4-cyl,Japan,17940,148,27
+Mazda Mazda3 hatchback s Grand Touring 4-cyl,Japan,22095,160,25
+Mazda Mazda3 sedan i 4-cyl MT,Japan,17960,148,30
+Mazda Mazda3 hatchback Mazdaspeed GrTr 4cyl,Japan,25195,263,24
+Mazda Mazda5,Japan,22615,157,23
+Mazda Mazda6 sedan i 4-cyl,Japan,21650,160,23
+Mazda Mazda6 sedan s V6,Japan,25925,220,20
+Mercedes-Benz B-Class,Europe,34339,134,26
+Mercedes-Benz C-Class,Europe,37325,228,21
+Mercedes-Benz CLS,Europe,76784,302,18
+Mercedes-Benz E-Class sedan E320 BLUETEC V6,Europe,55415,208,29
+Mercedes-Benz E-Class sedan E350 V6,Europe,54415,268,21
+Mercedes-Benz GL-Class,Europe,67820,335,15
+Mercedes-Benz M-Class,Europe,48880,268,16
+Mercedes-Benz S-Class,Europe,90200,382,17
+Mercedes-Benz SL,Europe,105855,382,17
+Mercedes-Benz SLK,Europe,53950,268,21
+Mercury Grand Marquis,United States,30130,239,16
+Mercury Milan Base 4-cyl,United States,20415,160,23
+Mini Cooper,Europe,26400,172,30
+Mitsubishi Eclipse,Japan,21764,162,23
+Mitsubishi Endeavor,Japan,30792,215,17
+Mitsubishi Galant ES 4-cyl,Japan,20342,160,23
+Mitsubishi Galant GTS V6,Japan,27094,230,20
+Mitsubishi Lancer,Japan,17515,152,25
+Mitsubishi Outlander,Japan,30615,220,19
+Nissan 350Z,Japan,42800,287,20
+Nissan Altima sedan 2.5 S 4-cyl CVT,Japan,22705,175,25
+Nissan Altima sedan Hybrid 4-cyl CVT,Japan,28225,198,32
+Nissan Altima sedan 3.5 SE V6 CVT,Japan,31995,270,23
+Nissan Armada,Japan,42170,317,13
+Nissan Frontier,Japan,30010,261,15
+Nissan Maxima,Japan,33715,255,21
+Nissan Murano,Japan,36240,245,19
+Nissan Pathfinder,Japan,36160,270,15
+Nissan Quest,Japan,37565,235,18
+Nissan Sentra,Japan,18855,140,26
+Nissan Titan,Japan,33540,317,13
+Nissan Versa hatchback 1.8 S 4-cyl MT,Japan,14015,122,29
+Nissan Versa hatchback 1.8 SL 4-cyl CVT,Japan,16675,122,28
+Nissan Xterra,Japan,27900,261,17
+Pontiac G6 sedan Base 4-cyl,United States,20785,169,22
+Pontiac G6 sedan GT V6,United States,25989,224,20
+Pontiac Grand Prix,United States,26225,200,20
+Pontiac Solstice,United States,25895,177,23
+Pontiac Vibe,United States,19960,126,27
+Porsche 911,Europe,87520,355,20
+Porsche Boxster,Europe,49075,240,22
+Saab 9-3 sedan 2.0T 4-cyl,Europe,31615,210,23
+Saab 9-3 sedan Aero V6,Europe,37815,255,20
+Saab 9-5,Europe,38310,260,21
+Saturn Aura XE V6,United States,21070,224,20
+Saturn Aura XR V6,United States,26820,252,20
+Saturn Ion,United States,18415,140,25
+Saturn Outlook,United States,36799,275,16
+Saturn Sky,United States,30289,260,24
+Saturn Vue,United States,27970,257,17
+Scion tC 4-cyl MT,Japan,17365,160,26
+Scion tC TRD 4-cyl MT,Japan,20665,200,26
+Scion xB,Japan,18360,158,23
+Subaru Forester 2.5 X 4-cyl,Japan,23220,173,22
+Subaru Forester Sports 2.5 XT 4-cyl,Japan,27662,224,20
+Subaru Legacy 2.5i Special Edition 4-cyl,Japan,22835,170,23
+Subaru Legacy sedan 2.5 GT Limited 4-cyl,Japan,30797,250,18
+Subaru Outback wagon 2.5i 4-cyl,Japan,28790,168,21
+Subaru Outback wagon 3.0 R VDC Limited 6-cyl,Japan,36538,250,19
+Subaru Tribeca,Japan,34720,256,16
+Suzuki Forenza S 4-cyl,Japan,14499,126,24
+Suzuki Forenza S 4-cyl MT,Japan,13699,126,27
+Suzuki Grand Vitara,Japan,22894,185,18
+Suzuki SX4,Japan,17994,143,22
+Suzuki XL-7,Japan,29284,252,17
+Toyota 4Runner,Japan,32418,239,16
+Toyota Avalon,Japan,33070,280,22
+Toyota Camry LE 4-cyl,Japan,21080,158,24
+Toyota Camry Hybrid 4-cyl CVT,Japan,30667,187,34
+Toyota Camry Solara,Japan,31147,225,21
+Toyota Camry XLE V6,Japan,29839,268,23
+Toyota Corolla,Japan,16585,130,29
+Toyota FJ Cruiser,Japan,30881,239,17
+Toyota Highlander Hybrid Limited V6 CVT,Japan,43770,270,24
+Toyota Highlander Limited V6,Japan,38575,270,18
+Toyota Prius,Japan,22052,110,44
+Toyota RAV4 Base 4-cyl,Japan,23163,166,23
+Toyota RAV4 Limited V6,Japan,30328,269,22
+Toyota Sienna XLE AWD V6,Japan,38088,266,18
+Toyota Sienna XLE V6,Japan,36989,266,19
+Toyota Tacoma,Japan,29210,239,17
+Toyota Tundra,Japan,34738,381,15
+Toyota Yaris hatchback Base 4-cyl MT,Japan,12569,106,34
+Toyota Yaris sedan Base 4-cyl,Japan,15543,106,33
+Volkswagen GTI,Europe,23975,200,25
+Volkswagen Jetta,Europe,23580,150,24
+Volkswagen Passat sedan 2.0T 4-cyl,Europe,27440,200,24
+Volkswagen Passat sedan 3.6 V6,Europe,33315,280,22
+Volkswagen Passat wagon 3.6 V6,Europe,36480,280,20
+Volvo S40,Europe,28605,168,23
+Volvo S60,Europe,33890,208,22
+Volvo S80,Europe,45305,235,20
+Volvo V70/XC70,Europe,42560,235,18
+Volvo XC90,Europe,47685,311,16

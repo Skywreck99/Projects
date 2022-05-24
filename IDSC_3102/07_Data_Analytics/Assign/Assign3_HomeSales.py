@@ -24,12 +24,15 @@ home_sales_df.tail()
 # sector and on a corner lot. Show the selling price, size, number of
 # features, offer pending and annual tax, sorted descending on the number
 # of features. You should get 19 rows in the result.
-df5 = 
+df5 = home_sales_df[(home_sales_df['NESector'] == 'Yes') & (home_sales_df['CornerLot'] == 'Yes')]
+df5 = df5.drop(['Age', 'NESector', 'CornerLot'], axis=1).sort_values('Features', axis=0, ascending=False)
+df5.head(20)
 
 # **********************************************************************
 # Problem 6 (1 point). Find the average price, average size and average
 # age of homes by Northeast sector. 
-df6 = 
+df6 = home_sales_df.drop(['Features','CornerLot','OfferPending','AnnualTax'], axis=1).groupby('NESector').mean()
+df6.head()
 
 # **********************************************************************
 # Problem 7 (1 point). Create a new column called PPSQF defined as
@@ -38,19 +41,8 @@ df6 =
 # by average PPSQF descending.
 # Hint: Remember to reset the index of the resulting data frame before
 # sorting on average PPSQF.
-home_sales_df['PPSQF'] = 
+home_sales_df['PPSQF'] = home_sales_df['Price'] / home_sales_df['SquareFeet']
 home_sales_df.info()
 
-df7 = 
-
-# **********************************************************************
-# Problem 10 (1 point). Find the number of homes, total and average size,
-# as well as the min, max and average prices, and finally min, max and
-# average PPSQF by Northeast sector and corner lot.
-# Hint: Define the agg_dict with all the columns and aggregations and then
-# use it with the agg function.
-# Note: There is more than one way to get all the statistics, but in the
-# end the Excel file must show the complete result.
-agg_dict = 
-
-df10 = 
+df7 = home_sales_df.drop(['Features','Age','OfferPending','AnnualTax'], axis=1).groupby(['NESector','CornerLot']).mean().reset_index(drop=False, inplace=False).sort_values('PPSQF', axis=0, ascending=False)
+df7.head()
